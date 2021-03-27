@@ -1,0 +1,90 @@
+.dropdownlist-item input[type='radio'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border:1px solid darkgray;
+    border-radius:50%;
+    outline:none;
+  border-color: #71BC4E;
+  float: left;
+  cursor: pointer;
+
+  }
+  
+  .dropdownlist-item input[type='radio']:hover {
+    box-shadow:0 0 5px 0px #71BC4E;
+    background-color: #71BC4E;
+    content: url('./../assets/icons/radio-checked.svg');
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  .dropdownlist-item input[type='radio']:before {
+    content:'';
+    display:block;
+    width: 90%;
+    height: 90%;
+    margin: 4%;  
+    border-radius:50%;   
+    cursor: pointer;
+
+  }
+  .dropdownlist-item input[type='radio']:checked:before {
+    background:#71BC4E;
+    
+  }
+.class-drop-list{
+    float: right;
+    cursor: pointer;
+ 
+}
+
+.myclass-checked-radio{
+    margin-left: -22px;
+    margin-top: -3px;
+}
+
+.d1{
+    margin-left: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.MyClaasestext2{
+    margin-left: 0px;
+}
+.MyClaasestext3 {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+.class-progressbar .progress {
+  height: 7px;
+  width: 50%;
+  margin-left: 153px;
+  margin-top: -12px;
+}
+
+.class-progressbar .progress {
+  display: flex;
+  height: 5px;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #71BC4E;
+  border-radius: .25rem;
+}
+.class-progressbar .progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #F8DE56;
+  transition: width .6s ease;
+}

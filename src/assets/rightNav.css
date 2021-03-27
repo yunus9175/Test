@@ -1,0 +1,270 @@
+/* this is side calender CSS properties */
+.edcalendar{
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    list-style: none;
+    background-color: #F2B67F;
+    border-top-left-radius: 10px;
+    padding: 6px 2px;
+    
+
+}
+/* .leftsidecal{
+    margin-top: 1px;
+
+} */
+.leftsidecal
+{
+    background-color: #F2B67F;
+    list-style: none;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+} 
+
+.mycalender{
+    list-style: none;
+   
+}
+.calheadtext{
+    padding-left: 7px;
+    color: white;
+    padding-top: 2px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Roboto';
+    line-height: 15px;
+}
+.calendarhead{
+    width: 248px;
+    height: 30px;
+    background: #F2B67F;
+    border-radius: 8px 0px 0px 0px;
+    padding-left: 20px;
+    
+
+}
+
+/* this is side Task CSS properties */
+.edtask{
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    list-style: none;
+    background-color: #9AB5FA;
+    padding: 6px 16px;
+    margin-top: -20px;
+    border-top-left-radius: 10px;
+
+
+
+}
+.leftsidetask{
+    list-style: none;
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.edtask1{
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+    list-style: none;
+    height: 250px;
+    padding-top: 10px;
+
+}
+.taskitem{
+    font-family: 'Nunito';
+    font-size: 13px;
+    line-height: 17.3px;
+    padding: 5px;
+    padding-left: 0px;
+}
+.taskhead {
+    width: 249px;
+    height: 30px;
+    background: #9AB5FA;
+    border-radius: 8px 0px 0px 0px;
+  
+    margin-left: -3px;
+    padding-top: 5px;
+}
+.taskheadtext{
+    padding-left: 5px;
+    color: white;
+    padding-top: 0px;
+   
+}
+.taskheadtext2 {
+    /* padding-left: 60px; */
+    color: white;
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-left: 64px;
+}
+.taskitem{
+    font-family: 'Nunito';
+    font-size: 13px;
+    line-height: 17.3px;
+    padding: 5px;
+    padding-left: 0px;
+}
+.taskitemlink{
+    font-size: 13px;
+    font-style: normal;
+    font-family: 'Roboto';
+    line-height: 15px;
+    color: #9AB5FA;
+    padding: 5px;
+    padding-left: 0px;
+
+}
+
+
+
+
+/* this is coming soon css properties */
+
+.edcoming{
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    list-style: none;
+    background: #C66EFA;
+    padding: 6px 16px;
+    margin-top: -20px;
+    border-top-left-radius: 10px;
+}
+.cominghead{
+    width: 249px;
+    height: 30px;
+    background: #C66EFA;
+
+    border-radius: 8px 0px 0px 0px;
+    /* margin-bottom: 20px; */
+    /* padding-left: 20px; */
+    /* margin-right: -1px; */
+    /* margin-left: 15px; */
+    padding-top: 5px;
+}
+.comingheadtext{
+    padding-left: 5px;
+    color: white;
+    padding-top: 0px;
+   
+}
+.comingheadtext2 {
+    color: #C66EFA;
+    border-radius: 50%;
+    background-color: white;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-left: 61px;
+    width: 6px;
+    padding-left: 6px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+}
+
+
+
+.edcoming1{
+    box-shadow: 5px 5px 25px -5px rgb(36 35 35);
+    list-style: none;
+    height: 327px;
+    padding-top: 10px;
+
+}
+.comingitem{
+    font-family: 'Nunito';
+    font-size: 13px;
+    line-height: 17.3px;
+    padding: 5px;
+    padding-left: 0px;
+}
+.comingitemlink{
+    font-size: 13px;
+    font-style: normal;
+    font-family: 'Roboto';
+    line-height: 15px;
+    color: #9AB5FA;
+    padding: 5px;
+    padding-left: 0px;
+
+}
+
+.rigthnav-bar{
+    width: 50px;
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  margin-top: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  /* box-shadow: 5px 5px 25px -5px rgb(36 35 35); */
+}
+
+.navright-items-active {
+    width: 265px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: -10px;
+}
+.Calender-li{
+    background: #F2B67F;
+list-style: none;
+/* padding-left: 15px;
+margin-left: 0px;
+margin: 20px; */
+height: 40px;
+width: 55px;
+
+border-top-left-radius: 17px;
+}
+.iEdCalendar{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.Task-li{
+    list-style: none;
+    /* padding-left: 15px;
+    margin-left: 0px;
+    margin: 20px; */
+    height: 40px;
+    width: 55px; 
+    background-color: #9AB5FA;
+
+}
+.iEdTasks{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.ComingSoon-li{
+    list-style: none;
+    /* padding-left: 15px;
+    margin-left: 0px;
+    margin: 20px; */
+    height: 40px;
+    width: 55px; 
+    background: #C66EFA;
+
+}
+.iEdComingSoon{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+

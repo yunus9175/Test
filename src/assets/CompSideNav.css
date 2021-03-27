@@ -1,0 +1,443 @@
+.compressleft-nav-bar{
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #D7DCEA;
+    border-radius: 0px 8px 0px 0px;
+    width: 94px;
+    height: 944px;
+    left: 0;
+    margin-top: 20px;
+    box-shadow: rgb(184, 180, 180) 2px 1px;
+   
+}
+.ED-downarrow{
+    margin-top: 17px;
+    margin-left: 5px;
+}
+.compressed-EDuser{
+    display: flex;
+    margin-left: -31px;
+    margin-top: 10px;
+}
+.compresed-nav-list{
+    list-style: none;
+}
+.d{
+    list-style: none;
+    border: #D7DCEA 1px solid;
+    border-left: #FCD46F 4px solid;
+    width: 94px;
+    /* right: 1px; */
+    margin-right: 7px;
+    height: 50px;
+    padding-top: 9px;
+    padding-left: 50px;
+    margin-left: -41px;
+    margin-top: 10px;
+    display: flex;
+}
+.d a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #FCD46F 4px solid;
+    margin-left: -54px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+
+}
+.d a:hover{
+    background-color: #FCD46F;
+
+}
+.d a:hover img{
+    
+     margin-left:0px ;
+   
+     content:url('./../assets/icons/d1.png');
+    
+  
+}
+
+.c{
+    text-decoration: none;
+    list-style: none;
+    border: #D7DCEA 1px solid;
+    border-left: #71BC4E 4px solid;
+    /* right: 1px; */
+    margin-right: 7px;
+    height: 50px;
+        padding-top: 9px;
+    padding-left: 20px;
+    width: 94px;
+    margin-left: -41px;
+    display: flex;
+    
+}
+.c a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #71BC4E 4px solid;
+
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.c a:hover{
+    background-color: #71BC4E;
+   
+}
+.c a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/c1.png');
+   
+ 
+}
+.t{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left:#F28080 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 40px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+    display: flex;
+
+}
+.t a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left:#F28080 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.t a:hover{
+    background-color:#F28080;
+    
+}
+.t a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/t1.png');
+   
+ 
+}
+.s{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #E07CD0 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 40px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+    display: flex;
+
+}
+.s a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #E07CD0 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.s a:hover{
+    background-color: #E07CD0;
+    
+}
+.s a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/s1.png');
+   
+ 
+}
+.r{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #21D2DD 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 40px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+    display: flex;
+
+}
+.r a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #21D2DD 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.r a:hover{
+    background-color: #21D2DD;
+}
+.r a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/res1.png');
+   
+ 
+}
+.ass{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #725BFF 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 40px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+     display: flex;
+}
+.ass a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #725BFF 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.ass a:hover{
+    background-color: #725BFF;
+}
+.ass a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/as1.png');
+   
+ 
+}
+.rub{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #B1EC67 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 40px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+     display: flex;
+} 
+.rub a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #B1EC67 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.rub a:hover{
+    background-color: #B1EC67;
+    
+}
+.rub a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/rub1.png');
+   
+ 
+} .rep{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #DF1824 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 40px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+     display: flex;
+} 
+.rep a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #DF1824 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.rep a:hover{
+    background-color: #DF1824;
+} 
+.rep a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/repo1.png');
+   
+ 
+}
+.v{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #A796EB 4px solid;
+    width: 94px;
+    margin-left: -41px;   
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 10px;
+     display: flex;
+} 
+.v a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #A796EB 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.v a:hover{
+    background-color: #A796EB;
+    
+} 
+.v a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/vert1.png');
+   
+ 
+}
+.st{
+    text-decoration: none;
+    list-style: none;
+  border: #D7DCEA 1px solid;
+    border-left: #85C3E7 4px solid;
+    width: 94px;
+    margin-left: -41px;
+    height: 50px;
+     /* right:1px; */
+     height: 50px;
+         padding-top: 9px;
+     padding-left: 20px;
+     margin-right: 7px;
+     display: flex;
+} 
+.st a{
+    text-decoration: none;
+    display: flex;
+    width: 94px;
+    height: 50px;
+    border: #D7DCEA 1px solid;
+    border-left: #85C3E7 4px solid;
+    margin-left: -24px;
+    margin-top: -9px;
+    padding-left: 21px;
+    padding-top: 5px;
+    margin-right: -1px;
+}
+.st a:hover img{
+    
+    margin-left:0px ;
+  
+    content:url('./../assets/icons/stand1.png');
+   
+ 
+}
+.st a:hover{
+    background-color: #85C3E7;
+    
+}
+
+.compressed-logout{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -14px;
+    margin-left: -40px;
+    border-top: 1px solid #D7DCEA;
+    height: 50px;
+    width: 94px;
+}
+.compressed-upload{
+    position: absolute;
+    bottom: 5.52%;
+    border-radius: 2px;
+    background-color: #A100FF;
+    height: 40px;
+    width: 74px;
+    margin-left: -31px;
+}
