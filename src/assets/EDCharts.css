@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     /* margin-bottom: 5px; */
-    margin-top: 1px;
+    margin-top: 0px;
 }
 
 .Charts1 {
@@ -12,6 +12,7 @@
     flex-direction: row;
     /* margin-bottom: 22px; */
     margin-top: -3px;
+    margin-left: 77px;
 }
 
 /* All expand css here */
@@ -22,7 +23,7 @@
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     position: relative;
     border-radius: 8px;
-    right: 29px;
+    right: 0px;
     border: 1px solid #71BC4E;
     box-sizing: border-box;
     margin-top: 20px;
@@ -32,29 +33,29 @@
 
 .expandschool-wrapper {
     height: 451px;
-    width: 582px;
+    width: 621px;
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     position: relative;
     border-radius: 8px;
-    right: 31px;
+    right: 1px;
     border: 1px solid #E07CD0;
     box-sizing: border-box;
     margin-top: 20px;
-    margin-left: 143px;
+    margin-left: 67px;
     box-shadow: 5px 5px 25px -5px rgb(36 35 35);
 }
 
 .expandresources-wrapper {
     height: 451px;
-    width: 576px;
+    width: 621px;
     position: relative;
-    right: 45px;
+    right: -3px;
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     border-radius: 8px;
     border: 1px solid #71BC4E;
     box-sizing: border-box;
     margin-top: 20px;
-    margin-left: 33px;
+    margin-left: 23px;
     box-shadow: 5px 5px 25px -5px rgb(36 35 35);
 }
 
@@ -63,7 +64,7 @@
     width: 621px;
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     position: relative;
-    right: 45px;
+    right: 0px;
     border-radius: 8px;
     border: 1px solid #F28080;
     box-sizing: border-box;
@@ -75,12 +76,14 @@
 .MyClaases-wrapper {
     height: 451px;
     width: 441px;
+    left: 8px;
+    position: relative;
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     border-radius: 8px;
     border: 1px solid #71BC4E;
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-left: 258px;
+    margin-top: 6px;
+    margin-left: 264px;
     box-shadow: 5px 5px 25px -5px rgb(36 35 35);
 }
 
@@ -91,32 +94,38 @@
     border-radius: 8px;
     border: 1px solid #F28080;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 6px;
     margin-left: 9px;
+    left: 16px;
+    position: relative;
     box-shadow: 5px 5px 25px -5px rgb(36 35 35);
 }
 
 .myresources-wrapper {
     height: 451px;
     width: 441px;
+    left: 20px;
+    position: relative;
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     border-radius: 8px;
     border: 1px solid #21D2DD;
     box-sizing: border-box;
     margin-top: 20px;
-    margin-left: 6px;
+    margin-left: 17px;
     box-shadow: 5px 5px 25px -5px rgb(36 35 35);
 }
 
 .myschool-wrapper {
     height: 451px;
     width: 441px;
+    left: 20px;
+    position: relative;
     box-shadow: 0px 4px 4px rgb(224 226 229 / 25%);
     border-radius: 8px;
     border: 1px solid #E07CD0;
     box-sizing: border-box;
     margin-top: 20px;
-    margin-left: 260px;
+    margin-left: 175px;
     box-shadow: 5px 5px 25px -5px rgb(36 35 35);
 }
 
@@ -260,11 +269,12 @@
     font-family: Roboto;
     font-size: 13px;
     line-height: 15px;
-    margin-right: 41px;
-    margin-left: 10px;
+    margin-right: 5px;
+   
     border: none;
     background: #71BC4E;
     color: white;
+    margin-left: -9px;
 
 }
 
@@ -608,7 +618,7 @@
     display: flex;
     width: 430px;
     height: 200px;
-    margin-left: 93px;
+    margin-left: 70px;
 }
 
 .horizantal-container {
@@ -768,10 +778,18 @@
     border-radius: 2px;
     margin-left: 10px;
     margin-right: 20px;
+    font-style: normal;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
 }
-.myteamtxt1,.myteamtxt2,.myteamtxt3,.myteamtxt4{margin-left: 7px;}
+.myteamtxt1,.myteamtxt3,.myteamtxt4{margin-left: 7px;}
 
-
+.myteamtxt2{
+    margin-left: -1px;
+}
 
 /* My Classes Buttons */
 
@@ -830,8 +848,8 @@
     font-size: 12px;
     line-height: 14px;
     float: right;
-    margin-right: 6px;
-    margin-top: 5px;
+    margin-right: 7px;
+    margin-top: 4px;
 }
 /* Team dropdown */
 .team-dropdown-main{
@@ -843,20 +861,9 @@
     list-style: none;
     right: 325px;
     top: 118px;
-    border: 1px solid black
+    box-shadow: 0px 3px 3px rgb(100 100 100);
 }
-.team-drop-down-compress {
-    position: absolute;
-    width: 237px;
-    height: 255px;
-    background-color: white;
-    color: black;
-    list-style: none;
-    right: 270px;
-    top: 133px;
-    border: 1px solid black;
-    border-radius: 7px;
-}
+
 
 
 .teamdrop-footer{
@@ -865,18 +872,35 @@
 }
 
 .team-clr{
-    margin-left: -34px;
-    color: #7D8995;
+    margin-left: -32px;
+    color: #A7A7A7;
+    cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Roboto;
+    border: none;
+    background: white;
+    outline: none;
 
 }
 .team-clr-active{
     margin-left: -34px;
     color: #F28080;
     cursor: pointer;
+    margin-left: -32px;
+    
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Roboto;
+    background: white;
 }
 
 .team-view-select{
-    margin-left: 80px;
+    margin-left: 83px;
+    /* margin-top: 21px; */
+    margin-bottom: 3px;
 }
 
 .teamdropdownlist-item{
@@ -912,15 +936,13 @@
     background-color: white;
     color: black;
     list-style: none;
-    left: 180px;
+    left: 163px;
     border-radius: 7px;
     top: 36px;
-    border: 1px solid black;
+    box-shadow: 0px 3px 3px rgb(100 100 100);
+    /* border: 1px solid black; */
 }
-.classviewbtn{
-    background: #71BC4E;
-    color: white;
-}
+
 
 .class-drop-down-compress {
     position: absolute;
@@ -930,23 +952,60 @@
     background-color: white;
     color: black;
     list-style: none;
-    left: 426px;
-    top: 131px;
-    border: 1px solid black;
+    left: 137px;
+    box-shadow: 0px 3px 3px rgb(100 100 100);
+    top: 33px;
+    /* border: 1px solid black; */
 }
 .drop-footer{
     margin-top: 19px;
 }
-.class-clr{
-    margin-left: -34px;
-    
-    color: #7D8995;
-
+.class-clr {
+    margin-left: -32px;
+    color: #A7A7A7;
+    cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Roboto;
+    border: none;
+  
+    background: white;
+ 
+    outline: none;
 }
 .class-clr-active{
-    margin-left: -34px;
+    margin-left: -32px;
     color: #71BC4E;
-    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Roboto;
+    background: white;
+
+}
+.classviewbtn-disable {
+    border: 2px;
+    background: #a7a7a7;
+    color: white;
+    /* outline: none; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Roboto;
+    width: 95px;
+    height: 29px;
+}
+.classviewbtn-active{
+    background: #71BC4E;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Roboto;
+    width: 95px;
+    height: 29px;
+    border: 2px;
 
 }
 

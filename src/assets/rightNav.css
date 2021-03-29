@@ -107,7 +107,7 @@
     font-weight: 500;
     font-size: 13px;
     text-transform: capitalize;
-    margin-left: 64px;
+    margin-left: 46px;
 }
 .taskitem{
     font-family: 'Nunito';
@@ -170,7 +170,7 @@
     font-weight: 500;
     font-size: 13px;
     text-transform: capitalize;
-    margin-left: 61px;
+    margin-left: 46px;
     width: 6px;
     padding-left: 6px;
     padding-right: 7px;
@@ -206,8 +206,8 @@
 }
 
 .rigthnav-bar{
-    width: 50px;
-  height: 120px;
+   min-width: 50px;
+  height: 944px;
   display: flex;
   justify-content: flex-end;
   float: right;
@@ -218,7 +218,7 @@
 }
 
 .navright-items-active {
-    width: 265px;
+    max-width: 249px;
     height: -moz-fit-content;
     height: fit-content;
     margin-top: -10px;

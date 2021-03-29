@@ -11,12 +11,10 @@ import checkedradio from './../assets/icons/radio-checked.png'
 
 function MyClasses(props) {
     const [dropdown, setdropdown] = useState(true)
-    const[isdisable,setisdisable]=useState(true);
+    
     const[arr1,setarr1]=useState([]);
     const[ischecked,setischecked]=useState('');
-    const handleradio=()=>{
-        setisdisable(false)
-    }
+    
     const handleclr=()=>{
         setarr1([])
     }
@@ -36,7 +34,8 @@ function MyClasses(props) {
        else{
            setischecked(arr1.join(","))
        }
-       alert(`${arr1}`);
+      
+      
     }, [arr1])
     console.log(props.sidebar)
     const data = {
@@ -61,8 +60,21 @@ function MyClasses(props) {
                         <span className="MyClaases-head">
                             <img src={myclasses} />
                             <span className="MyClaasestext1">My Classes</span>
-                            <button className="MyClaasestext2" onClick={() => setdropdown(!dropdown)}>ELA12 M-F3:30-3:45  {dropdown ? <img src={classdropUp} /> : <img src={classdropDown} />}
+                        
+                            {    
+                                arr1.length==0?
+                                  
+                           <span >
+                                <button className="MyClaasestext2" onClick={() => setdropdown(!dropdown)}>ELA12 M-F3:30-3:45  {dropdown ? <img src={classdropUp} /> :<span> <img src={classdropDown} /> <img src={classdropDown} className={!props.sidebar?"class_drop_indicator":"class-drop-indicator-compress"}/></span>}
                             </button>
+                           </span>
+                         :
+                           <span>
+                                <button className="MyClaasestext2" onClick={() => setdropdown(!dropdown)}>{arr1[0]} {dropdown ? <img src={classdropUp} /> : <span><img src={classdropDown} /> <img src={classdropDown} className={!props.sidebar?"class_drop_indicator":"class-drop-indicator-compress"}/></span>}
+                                </button>
+                           </span>
+                            }
+                            
                             {!dropdown?
                             <ul className={props.sidebar ?"class-drop-down-compress":"class-dropdown-main"}>
                                 {
@@ -80,7 +92,12 @@ function MyClasses(props) {
                                     }
                                     )
                                 }
-                                <li className="drop-footer"><span className={arr1.length==0?"class-clr":"class-clr-active"} onClick={handleclr}>Clear</span><span className="class-view-select"><button disabled={arr1.length==0} className={arr1.length==0?null:"classviewbtn"}>View Selected</button></span></li>
+                                <li className="drop-footer">
+                                    <button disabled={arr1.length==0} className={arr1.length==0?"class-clr":"class-clr-active"} onClick={handleclr}>Clear</button>
+                                    <span className="class-view-select">
+                                        <button disabled={arr1.length==0} className={arr1.length==0?"classviewbtn-disable":"classviewbtn-active"}>View Selected</button>
+                                    </span>
+                                    </li>
                             </ul>:null
 }
                             <span className={props.sidebar?"myclassestext3-comp":"MyClaasestext3"}>LEARN MORE</span>

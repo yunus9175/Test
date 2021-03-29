@@ -8,19 +8,19 @@
     list-style: none;
     right: 180px;
     top: 36px;
-    border: 1px solid black;
+    box-shadow: 0px 3px 3px rgb(100 100 100);
 }
-.team-drop-down-compress{
-    position: absolute;
-    width: 237px;
-    height: 255px;
-    background-color: white;
-    color: black;
-    list-style: none;
-    right: 240px;
-    top: 133px;
-    border: 1px solid black;
-    border-radius: 7px;
+.team-drop-down-compress {
+  position: absolute;
+  width: 237px;
+  height: 255px;
+  background-color: white;
+  color: black;
+  list-style: none;
+  right: 56px;
+  top: 32px;
+  box-shadow: 0px 3px 3px rgb(100 100 100);
+  border-radius: 7px;
 }
 .teamdropdownlist-item input[type='radio'] {
     -webkit-appearance:none;
@@ -48,6 +48,7 @@
     height: 90%;
     margin: 4%;  
     border-radius:50%;   
+    cursor: pointer;
   }
   .teamdropdownlist-item input[type='radio']:checked:before {
     background:#F28080;
@@ -63,7 +64,41 @@
 .myteams-options{
     margin-left: 15px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .MyClaasestext2{
     margin-left: 0px;
+}
+.teamviewbtn-disable{
+  border: 2px;
+  background: #a7a7a7;
+  color: white;
+  /* outline: none; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: Roboto;
+  width: 95px;
+  height: 29px;
+}
+.teamviewbtn-active{
+  background: #F28080;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Roboto;
+    width: 95px;
+    height: 29px;
+    border: 2px;
+}
+.team_drop_indicator{
+  position: relative;
+  top: 16px;
+  left: -11px;
+}
+.team-drop-indicator-compress{
+  position: relative;
+  top: 13px;
+  left: -11px;
 }

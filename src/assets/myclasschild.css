@@ -50,17 +50,8 @@
     cursor: pointer;
 
 }
-.MyClaasestext2{
-    margin-left: 0px;
-}
-.MyClaasestext3 {
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 14px;
-    float: right;
-    margin-top: 5px;
-    margin-right: 6px;
-}
+
+
 .class-progressbar .progress {
   height: 7px;
   width: 50%;
@@ -87,4 +78,14 @@
   white-space: nowrap;
   background-color: #F8DE56;
   transition: width .6s ease;
+}
+.class_drop_indicator{
+  position: relative;
+  top: 16px;
+  left: -11px;
+}
+.class-drop-indicator-compress{
+  position: relative;
+  top: 13px;
+  left: -11px;
 }

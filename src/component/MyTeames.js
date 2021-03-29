@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import myteam from './../assets/image/myteam.png';
 import {Doughnut} from 'react-chartjs-2'
 import '../assets/EDCharts.css'
@@ -13,12 +13,11 @@ function MyTeames(props) {
     const [dropdown, setdropdown] = useState(true)
     const[isdisable,setisdisable]=useState(true);
     const[ischecked,setischecked]=useState('');
-    const handleradio=()=>{
-        setisdisable(false)
-    }
+    
     const handleclr=()=>{
         setischecked('')
     }
+   
     const data={
         datasets:[
             {
@@ -51,7 +50,15 @@ function MyTeames(props) {
                         <span className="myteam-head">
                             <img src={myteam} />
                             <span className="myteamtext1">My Teames</span>
-                            <button className="myteamtext2" onClick={() => setdropdown(!dropdown)}>My Super Teame 01  {dropdown ?<img src={classdropUp}/>: <img src={classdropDown} />}</button>
+                            {
+                                ischecked==''?
+                                <button className="myteamtext2" onClick={() => setdropdown(!dropdown)}>My Super Team 01  {dropdown ?<img src={classdropUp}/>:<span> <img src={classdropDown} /> <img src={classdropDown} className={!props.sidebar?"team_drop_indicator":"team-drop-indicator-compress"}/></span>}</button>
+                                :
+                                <button className="myteamtext2" onClick={() => setdropdown(!dropdown)}>{ischecked} {dropdown ?<img src={classdropUp}/>:<span> <img src={classdropDown} /> <img src={classdropDown} className={!props.sidebar?"team_drop_indicator":"team-drop-indicator-compress"}/></span>}</button>
+
+
+                            }
+                        
                             {!dropdown?
                             <ul className={props.sidebar ?"team-drop-down-compress":"team-dropdown-main"}>
                                 {
@@ -60,7 +67,7 @@ function MyTeames(props) {
                                             
                                          <li key={item.id} className="teamdropdownlist-item">
                                              <label>
-                                             <input type="radio"id={item.id} value={item.val} name={item.name} checked={ischecked===item.val} onClick={()=>{setischecked(item.val)}} className="teamdrop-radio"/>
+                                             <input type="radio" id={item.id} value={item.val} name={item.name} checked={ischecked===item.val} onClick={()=>setischecked(item.val)} className="teamdrop-radio"/>
                                              <img src={checkedradio} className="myteams-checked-radio"/>
                                              <span className={item.class}>{item.name}</span>
                                              </label>
@@ -69,7 +76,12 @@ function MyTeames(props) {
                                         }
                                     )
                                 }
-                                <li className="teamdrop-footer"><span className={!ischecked?"team-clr":"team-clr-active"} onClick={handleclr}>Clear</span><span className="team-view-select"><button disabled={ischecked} className={!ischecked?null:"teamviewbtn"}>View Selected</button></span></li>
+                                <li className="teamdrop-footer">
+                                    <button className={!ischecked?"team-clr":"team-clr-active"} onClick={handleclr}>Clear</button>
+                                    <span className="team-view-select">
+                                        <button disabled={!ischecked} className={!ischecked?"teamviewbtn-disable":"teamviewbtn-active"}>View Selected</button>
+                                        </span>
+                                        </li>
                             </ul>:null
 }
 
